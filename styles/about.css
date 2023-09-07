@@ -96,34 +96,30 @@ body {
 
 @media screen and (max-width: 768px) {
     #navbar {
-        padding: 15px 10px;
-    }
-
-    body {
-        background-color: #fff;
+        padding: 10px 10px;
     }
 
     .site-name {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     #links li {
         margin: 0 10px;
     }
 
-    #links a {
-        font-size: 18px;
+    #links li a {
+        font-size: 12px;
+        padding-bottom: 40px;
     }
 
     #main {
-        height: 80vh;
+        height: 60vh;
         font-size: 16px;
         margin-top: calc(60%-40px);
     }
 
     #title {
         font-size: 24px;
-        margin-top: px;
         margin-bottom: 50px;
     }
 
@@ -140,7 +136,7 @@ body {
 @media screen and (max-width: 600px) {
 
     #title {
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
     body {
@@ -151,7 +147,7 @@ body {
 @media screen and (max-width: 450px) {
 
     #title {
-        margin-top: 325px;
+        margin-top: 145px;
     }
 
     body {
@@ -174,7 +170,7 @@ body {
 @media screen and (max-width: 400px) {
 
     #title {
-        padding-top: 450px;
+        padding-top: 700px;
     }
 
     body {

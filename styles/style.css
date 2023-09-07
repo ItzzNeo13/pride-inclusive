@@ -113,24 +113,34 @@ body {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     #navbar {
-        padding: 15px 10px;
+        padding: 10px 10px;
     }
 
     .site-name {
-        margin-bottom: 10px;
-    }
-
-    #links {
-        margin-top: 15px;
+        font-size: 14px;
     }
 
     #links li {
         margin: 0 10px;
     }
 
+    #links li a {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+
     .head {
-        padding: 10px;
-        margin: 10px;
+        padding: -5px;
+        margin: 45px;
+        
+    }
+
+    .head .intro .name {
+        font-size: 24px;
+    }
+
+    .head .intro #center-text {
+        font-size: 20px;
     }
 
     .icon-group {

@@ -50,6 +50,7 @@ body {
     color: aliceblue;
     text-align: center;
     margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
 }
 
 .member-table {
@@ -103,6 +104,23 @@ body {
 
 
 @media screen and (max-width: 768px) {
+    #navbar {
+        padding: 10px 10px;
+    }
+
+    .site-name {
+        font-size: 14px;
+    }
+
+    #links li {
+        margin: 0 10px;
+    }
+
+    #links li a {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+
     .member-table {
         flex-direction: column;
         align-items: center;
